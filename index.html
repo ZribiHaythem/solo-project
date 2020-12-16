@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">   
+    <title>Game Zone</title>
+    <link id="1" class= 'logo' rel="shortcut icon" href="logo.png">
+    
 </head>
 <body>
+    <nav>
+        <a href="#" id="2" class="logo"> 
+            <img src="logo2.jpg"/>
+        </a>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Top Played</a></li>
+            <li><a href="#">new</a> </li>
+            <li><a href="#">popular games</a> </li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Find Your Game">
+            <i class="fas fa-gamepad"></i>
+        </div>
+    </nav>
+    <section id="my">
+        <h1 class="showGames-head">Games</h1>
+        <div id="autoWidth" class="cs-hidden">
+                <div class="showGames-box">
+                    <img src="league-of-legends.jpg" style="width:100%"/>
+                </div>  
+                <div class="showGames-box">
+                    <img src="pubg.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="ovarwatch.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="hearthstone1.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="fortnite.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="Among-US.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="Apex_Legends.png" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="Rocket League.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="MInecraft.jpg" style="width:100%"/>
+                </div> 
+                <div class="showGames-box">
+                    <img src="wow.jpg" style="width:100%"/>
+                </div>
+                <div class="showGames-box">
+                    <img src="Dota 2.jpg" style="width:100%"/>
+                </div>
+                <div class="showGames-box">
+                    <img src="download.jpg" style="width:100%"/>
+                </div> 
+        </div>       
+    </section>
     
+    <button class="w3-button-w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button-w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="main.js"></script>
 </body>
 </html>
